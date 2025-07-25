@@ -27,6 +27,11 @@ This repository hosts my solutions to (https://leetcode.com/UgamThakkar) problem
 - **Solution**: Implemented in C++ using temporary states (`-1` for alive-to-dead, `2` for dead-to-alive) for in-place updates.
 - **Commit Message**: "Implement LeetCode 289 Game of Life to update a board in-place per rules: live cell with <2 or >3 live neighbors dies, 2-3 lives; dead cell with 3 live neighbors becomes alive, returning next state."
 
+### 1236. Web Crawler (Medium)
+- **Description**: Crawl all unique URLs under the same hostname as `startUrl` using `HtmlParser`. Rules: start from `startUrl`, avoid duplicates, and only include same-hostname URLs.
+- **Solution**: C++ using BFS with a queue and unordered_set to track visited URLs, extracting hostnames with string manipulation.
+- **Commit Message**: "Implemented LeetCode 1236 Web Crawler to crawl unique URLs under the same hostname using BFS."
+
 ## Usage
 - Browse the repository to find solutions by problem number or title.
 - Each file contains the problem statement, solution code, and complexity analysis.
